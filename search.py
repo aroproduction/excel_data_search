@@ -4,7 +4,7 @@ from tkinter import ttk
 
 # Load the Excel data into a Pandas DataFrame
 # df = pd.read_excel('records.csv')
-df = pd.read_excel('./problemStatements (1).xlsx')
+df = pd.read_excel('./problemStatements.xlsx')
 
 # Create a serial number column
 df.insert(0, 'Serial No.', range(1, len(df) + 1))
